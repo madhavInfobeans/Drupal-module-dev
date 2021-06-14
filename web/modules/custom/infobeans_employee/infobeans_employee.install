@@ -1,0 +1,40 @@
+<?php
+
+function infobeans_employee_schema()
+{
+ $schema['infobeans'] = [
+  'fields' => [
+   'id' => [
+    'type' => 'serial',
+    'not null' => TRUE,
+   ],
+   'fname' => [
+    'description' => 'Your First Name',
+    'type' => 'varchar',
+    'length' => 20,
+   ],
+   'lname' => [
+    'type' => 'varchar',
+    'length' => 20,
+   ],
+   'gender' => [
+    'description' => 'employee gender',
+    'type' => 'varchar',
+    'length' => 10,
+    'not null'=>TRUE
+   ],
+   'about_employee' => [
+    'type' => 'text',
+    'not null'=> FALSE,
+    'default'=>'Full stack Developer',
+   ],
+   'create_date'=>[
+       'mysql_type'=>'timestamp',
+       'not null'=>TRUE
+   ]
+
+  ],
+  'primary key' => ['id'],
+ ];
+ return $schema;
+}

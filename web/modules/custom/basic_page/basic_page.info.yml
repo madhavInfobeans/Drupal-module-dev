@@ -1,0 +1,5 @@
+name: Basic Page Module
+description: This is our list basic page module
+core_version_requirement: ^9.1.10
+type: module
+package: Custom Modules

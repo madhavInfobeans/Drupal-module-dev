@@ -1,0 +1,5 @@
+name: "infobeans_employee"
+type: module
+description: "This mudule holds the data of infobeans company"
+core_version_requirement: 9.x
+package: "Custom Module"

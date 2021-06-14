@@ -1,0 +1,13 @@
+<?php
+
+function infobeans_employee_theme()
+{
+ return array(
+  'infobeans_employee' => array(
+   'variables' => array(
+    'items' => [],
+    'title' => ''
+   ),
+  ),
+ );
+}

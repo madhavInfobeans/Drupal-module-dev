@@ -1,0 +1,15 @@
+infobeans_employee.createEmployee:
+  path: "/create-Employee"
+  defaults:
+    #_form: '\Drupal\infobeans_employee\Form\EmployeeForm'
+    _controller: 'Drupal\infobeans_employee\Controller\EmployeeController::createEmployee'
+    _title: "Create Infobeans Employee"
+  requirements:
+    _permission: "access content"
+
+infobeans_employee.getEmployeeList:
+  path: "/employee-list"
+  defaults:
+    _controller: '\Drupal\infobeans_employee\Controller\EmployeeController::getEmployeeList'
+  requirements:
+    _permission: "access content"

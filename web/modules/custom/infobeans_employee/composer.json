@@ -1,0 +1,13 @@
+{
+    "name": "infobeans_employee",
+    "type": "drupal-module",
+    "description": "This mudule holds the data of infobeans company",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/infobeans_employee",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/infobeans_employee",
+        "source": "http://cgit.drupalcode.org/infobeans_employee",
+    },
+}
