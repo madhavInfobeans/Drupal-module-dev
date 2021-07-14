@@ -1,0 +1,5 @@
+name: mydata
+type: module
+description: This dispaly information what you enter your application.
+core_version_requirement: 9.x
+package: Custom
